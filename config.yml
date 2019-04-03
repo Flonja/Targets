@@ -1,0 +1,16 @@
+commands: # All custom commands
+  ban: false
+  effect: true
+  enchant: true
+  gamemode: true
+  give: true
+  kick: true
+  kill: true
+  me: true
+  op: false # I suggest you to not touch this
+  say: true
+  spawnpoint: true
+  teleport: true
+  tell: true
+  title: true
+  xp: true

@@ -1,0 +1,4 @@
+name: Targets
+main: me.Chqmpignon.Selectors.Main
+version: "1.0.0"
+api: ["1.0.7"]

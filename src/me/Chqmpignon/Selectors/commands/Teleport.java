@@ -63,8 +63,8 @@ public class Teleport extends VanillaCommand {
                         }
                     } else {
                         if (args.length == 1) {
-                            origins.addAll(Target.parse(args[1], sender));
-                            if (Target.parse(args[1], sender) == null) {
+                            origins.addAll(Target.parse(args[0], sender));
+                            if (Target.parse(args[0], sender) == null) {
                                 sender.sendMessage(TextFormat.RED + "Can't find player " + args[0]);
                                 return true;
                             }

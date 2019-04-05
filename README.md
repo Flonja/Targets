@@ -12,7 +12,7 @@ ArrayList<Entity> entities = Target.parse(args[0], sender);
 for(Entity entity : entities) {
     if (entity instanceof Player) {
         Player player = (Player) entity;
-        player.sendMessage("hello")
+        player.sendMessage("hello");
     }
 }
 ```
